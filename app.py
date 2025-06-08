@@ -139,7 +139,7 @@ def delete():
     return render_template_string(HTML, current_word=current_word, message=msg)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run()
 
 
 # In[5]:
