@@ -1,4 +1,4 @@
 flask==2.3.2
-sentence-transformers==2.2.4  # 或是更高的2.x版本
+sentence-transformers==2.7.0  # 或是更高的2.x版本
 torch==2.0.1
 transformers==4.30.2
