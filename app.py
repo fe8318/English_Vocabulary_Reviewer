@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 FILENAME = 'vocab.txt'
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
 
 def load_vocab():
     vocab = {}
